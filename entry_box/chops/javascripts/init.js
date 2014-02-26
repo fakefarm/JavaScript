@@ -1,4 +1,5 @@
 (function (){
-  var myActionly = new myAction();
-  Goals.init(myActionly);
+  var myActionly = new Action();
+  var myController = new Controller();
+  myController.init(myActionly);
 })();

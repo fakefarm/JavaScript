@@ -1,5 +1,9 @@
-myAction = (function(){
-  var Action = {
+(function(){
+  window.Action = Action;
+
+  function Action(){}
+
+  Action.prototype = {
     showBox: function(){
       settings.newButton.onclick = function(event) {
         settings.entry.style.display="block";
@@ -17,5 +21,4 @@ myAction = (function(){
       };
     }
   };
-  return Action;
-});
+})();
