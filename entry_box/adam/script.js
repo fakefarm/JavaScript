@@ -9,9 +9,9 @@
       },
       init: function(theAction) {
         settings = this.settings;
-        this.constructor(theAction);
+        this.collector(theAction);
       },
-      constructor: function(act) {
+      collector: function(act) {
         act.showBox();
         act.hideBox();
         act.entries();
@@ -22,6 +22,10 @@
   }());
 
   myAction = (function(){
+    function foo(){
+
+    }
+    var settings = {}
     Action = {
       showBox: function(){
         settings.newButton.onclick = function(event) {

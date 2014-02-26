@@ -12,9 +12,3 @@
   new Dashboard(beta); // Do something with it all
 
 }());
-
-function Selector(elements){
-  _elements = {
-    // At this point I'm realizing that jQuery is a better approach...
-  };
-}
