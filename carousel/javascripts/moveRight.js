@@ -1,0 +1,53 @@
+(function(){
+  SlideShow.prototype.moveRight = function(){
+    if ($('#active').data('position') == "last") {
+      this.startOver();
+    } else {
+      this.proceed();
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+      //
+    }
+  }
+})();
+

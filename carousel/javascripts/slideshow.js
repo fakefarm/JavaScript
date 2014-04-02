@@ -13,13 +13,6 @@
         this.previous();
       }
     },
-    moveRight: function(){
-      if ($('#active').data('position') == "last") {
-        this.startOver();
-      } else {
-        this.proceed();
-      }
-    },
     visitLast: function(){
       $('#active').removeClass('active').attr('id', '');
       $("[data-position=last]").addClass('active').attr('id', 'active');
