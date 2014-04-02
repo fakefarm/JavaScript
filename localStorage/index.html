@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <a href="/">back to the farm.</a>
+    <a href="" id="clear-list">Clear list</a>
+    <div class="container">
+      <h2>Now or Later</h2>
+
+      <form id='target'>
+        <input type='text' placeholder='item..' id='copy'>
+        <input type='submit' value='add' id='new-activity'>
+      </form>
+
+      <ul id='now' class='now'>
+      </ul>
+
+      <div class="later-wrapper">
+        <ul id='later' class='later'>
+        </ul>
+      </div>
+      <div class="done-wrapper">
+        <h3>Done!</h3>
+        <ul id='done' class='done'>
+        </ul>
+      </div>
+    </div>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,500' rel='stylesheet' type='text/css'>
+  <script src="underscore.js"></script>
+  <script src="activity.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
